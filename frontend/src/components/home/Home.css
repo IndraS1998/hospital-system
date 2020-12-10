@@ -1,0 +1,57 @@
+img{
+    height: 15rem;
+    width: 20rem;
+}
+.center{
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+.data :hover{
+    color: #b4345c;
+    cursor: pointer;
+}
+
+.height_50{
+    min-height: 48vh;
+}
+.main{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+.App-logo{
+    animation: App-logo-grow infinite 2s linear;
+}
+
+@keyframes App-logo-grow {
+    from {
+        transform: scale(0.95)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.incr{
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+.mx-3{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.clr-purple{
+    color: #4b145b;
+}

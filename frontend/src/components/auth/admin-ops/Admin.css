@@ -1,0 +1,39 @@
+.height_admin{
+    min-height: 68vh;
+    margin-bottom: 1rem;
+}
+
+.admin_nav{
+    background-color: var(--clr-primary-2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.admin-nav-item{
+    color: var(--clr-grey-10);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.request_item{
+    background-color: var(--clr-grey-8);
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+span.green{
+    color: #2f9b1a;
+}
+
+.mutation-btn{
+    background-color: var(--clr-grey-10);
+    color: var(--clr-primary-2);
+    padding: 0.3rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}

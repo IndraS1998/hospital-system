@@ -1,0 +1,27 @@
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: darksalmon;
+}
+.nav-item{
+    margin: 0.5rem;
+    font-size: 1.1rem;
+}
+.nav-item :hover{
+    color: #d91955;
+}
+.center-Nav{
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

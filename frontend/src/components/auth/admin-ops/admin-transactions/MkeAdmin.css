@@ -1,0 +1,27 @@
+.set_black{
+    background-color: var(--clr-primary-2);
+    color: var(--clr-grey-9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styler{
+    text-align: center;
+    margin: 0.45rem;
+}
+.btn-2 {
+    background: var(--clr-primary-10);
+    border-color: transparent;
+    color: var(--clr-primary-2);
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    cursor: pointer;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}

@@ -1,0 +1,31 @@
+.modal-container{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-primary-3);
+    color: var(--clr-grey-9);
+}
+
+.modal-btn{
+    background-color:var(--clr-grey-10);
+    border: solid 3px var(--clr-black);
+    width: 12rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    margin-top: 2rem;
+    color: var(--clr-primary-3);
+    cursor: pointer;
+    align-self: center;
+}
+
+.text-Large{
+    font-size: 7rem;
+}
